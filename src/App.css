@@ -1,38 +1,55 @@
+:root {
+  --primary: #282c34;
+  --secondary: white;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: var(--primary);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--secondary);
 }
 
-.App-link {
-  color: #61dafb;
+.container-table{
+  padding: 0 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.assessment  {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.assessment td {
+  border-bottom: 1px solid var(--secondary);
+  border-top: 1px solid var(--secondary);
+  padding: 8px;
+}
+
+.assessment td:first-of-type{
+  border-left: 1px solid var(--secondary);
+}
+
+.assessment td:last-of-type{
+  border-right: 1px solid var(--secondary);
+}
+
+.student {
+  font-weight:500 ;
+}
+
+.dropdown{
+  width: 80%;
+}
+
+.submit{
+  margin-top: 1rem;
+  padding: 8px 15px;
+  font-weight:700;
+  background-color: var(--secondary);
+  color: var(--primary);
+  position: relative;
+  left: 40%;
 }
