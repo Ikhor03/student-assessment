@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+<h3 align="center">Dapur Solo</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">
+    <br />
+    <a href=""><strong>Live Demo »</strong></a>
+  </p>
+
+## About The Project
+
+This is a simple project created for learning purposes in React. The application allows teachers to assess students based on different aspect categories. After the teacher evaluates the students using these categories, an overview of the assessment results will be generated when the user clicks the 'Simpan' (Save) button. The overview will be displayed below the assessment table, providing the teacher with a complete summary of the students' performance.
+
+
+### Built With
+
+- [Create React App](https://github.com/facebook/create-react-app)
 
 ## Available Scripts
 
@@ -39,6 +51,8 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -68,3 +82,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+

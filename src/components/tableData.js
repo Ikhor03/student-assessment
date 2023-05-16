@@ -1,19 +1,19 @@
+import { memo } from "react";
 import Dropdown from "./dropdown";
 
-export default function TabelData({name}) {
-    const handleChange = (e) => {
-        let student = e.target.value;
-        console.log(student)
-    }
+function TabelData({ student, output, setOutput }) {
+
     return (
         <>
             <tr>
-                <td className="student">{name}</td>
-                <td><Dropdown student={name} /></td>
-                <td><Dropdown student={name} /></td>
-                <td><Dropdown student={name} /></td>
-                <td><Dropdown student={name} /></td>
+                <td className="student">{student}</td>
+                <td><Dropdown name="Aspek Penilaian 1" student={student} output={output} setOutput={setOutput} /></td>
+                <td><Dropdown name="Aspek Penilaian 2" student={student} output={output} setOutput={setOutput} /></td>
+                <td><Dropdown name="Aspek Penilaian 3" student={student} output={output} setOutput={setOutput} /></td>
+                <td><Dropdown name="Aspek Penilaian 4" student={student} output={output} setOutput={setOutput} /></td>
             </tr>
         </>
     )
 }
+
+export default memo(TabelData);

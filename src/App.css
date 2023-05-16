@@ -53,3 +53,17 @@
   position: relative;
   left: 40%;
 }
+
+.output {
+  width: 80%;
+  max-width: 550px;
+  padding: 0.2rem 1rem 1.2rem;
+  background-color: var(--secondary);
+  color: var(--primary);
+  margin: 2rem auto;
+  text-align: left;
+}
+
+code{
+  font-size: small;
+}
