@@ -1,8 +1,8 @@
-<h3 align="center">Dapur Solo</h3>
+<h3 align="center">Student Assessment</h3>
 
   <p align="center">
     <br />
-    <a href=""><strong>Live Demo »</strong></a>
+    <a href="https://student-assessment-six.vercel.app/"><strong>Live Demo »</strong></a>
   </p>
 
 ## About The Project
