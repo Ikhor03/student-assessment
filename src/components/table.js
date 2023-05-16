@@ -1,4 +1,4 @@
-import { memo, useState } from "react";
+import { memo, useEffect, useState } from "react";
 import TabelData from "./tableData";
 
 function Table() {
@@ -7,11 +7,15 @@ function Table() {
 
     const [output, setOutput] = useState({});
     const [visible, setvisible] = useState(false)
-
+    
     const handleSubmit = (e) => {
         e.preventDefault();
         setvisible(true)
     }
+
+    useEffect(() => {
+        setvisible(false)
+    }, [output])
 
     return (
         <div className="container-table">
